@@ -17,8 +17,7 @@ const Home = () => {
     }
 
     return (
-        <View style={styles.container}>
-            <SafeAreaView />
+        <SafeAreaView style={styles.container}>
             <View style={styles.boxTitle}>
                 <Text style={styles.title}>Dados pessoais</Text>
             </View>
@@ -33,7 +32,7 @@ const Home = () => {
                     <Text style={styles.textButtonSubmit}>{'Cadastrar'.toUpperCase()}</Text>
                 </TouchableOpacity>
             </View>
-        </View>
+        </SafeAreaView>
     );
 }
 
